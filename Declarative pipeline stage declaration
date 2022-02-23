@@ -3,11 +3,17 @@ pipeline
 agent any
 stages
 {
-stage('package + Git pooling log')
+stage('build')
+{
+steps{
+echo "   i  am in build stage "
+}
+}
+stage('package')
 {
 steps
 {
-echo "i am in package stage"
+echo "i am in package stage+ Git pooling log"
 }
 }
 }
