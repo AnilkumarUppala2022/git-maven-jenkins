@@ -1,0 +1,14 @@
+pipelin
+{
+agent any
+stages
+{
+stage('package')
+{
+steps
+{
+echo "i am in package stage 
+}
+}
+}
+}
