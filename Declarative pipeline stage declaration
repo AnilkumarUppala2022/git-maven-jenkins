@@ -3,7 +3,7 @@ pipeline
 agent any
 stages
 {
-stage('package')
+stage('package + Git pooling log')
 {
 steps
 {
