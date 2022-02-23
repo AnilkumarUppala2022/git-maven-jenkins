@@ -11,7 +11,7 @@ echo "   i  am in build stage git pooling log"
 }
 stage('package')
 {
-steps
+step
 {
 echo "i am in package stage+ Git pooling log"
 }
