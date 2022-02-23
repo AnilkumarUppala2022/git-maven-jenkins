@@ -6,7 +6,7 @@ stages
 stage('build')
 {
 steps{
-echo "   i  am in build stage "
+echo "   i  am in build stage git pooling log"
 }
 }
 stage('package')
