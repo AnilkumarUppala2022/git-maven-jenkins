@@ -7,7 +7,7 @@ stage('package')
 {
 steps
 {
-echo "i am in package stage 
+echo "i am in package stage"
 }
 }
 }
