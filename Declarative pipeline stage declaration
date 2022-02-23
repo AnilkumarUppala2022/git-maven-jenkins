@@ -13,7 +13,7 @@ stage('package')
 {
 steps
 {
-ech "am in package stage+ Git pooling log"
+echo " i am in package stage+ Git pooling log"
 }
 }
 }
